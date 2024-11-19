@@ -7,5 +7,6 @@ jobs:
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
+      - run: sudo apt-get install cowsay
       - run: ls -l
       - run: cat README.md | cowsay
