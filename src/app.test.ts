@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access, @typescript-eslint/no-misused-promises -- supertest forces us to use any */
 
 import { describe, beforeAll, afterAll, beforeEach, afterEach, test } from '@jest/globals';
 import { Express } from 'express';
@@ -78,6 +77,6 @@ describe('vehicle server', () => {
       {longitude: -71.060316, latitude: 48.432044},
       {longitude: -74.060316, latitude: 49.432044},
     ]);
-    
+
   });
 })
